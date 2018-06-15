@@ -4,7 +4,7 @@ from baselines import deepq
 
 
 def main():
-    env = gym.make("VacCanTest-v0")
+    env = gym.make("VacCan-v0")
     act = deepq.load("vaccan_model.pkl")
 
     while True:
